@@ -59,7 +59,7 @@ def TCP(sock, addr):
         fp2.close()
         if not data:
             break
-        #sock.send( '咸柱'.encode( 'utf-8') );
+        #sock.send( 'zxy'.encode( 'utf-8') );
         if messageBox.type is 4:
            newdata = recv_msg( sock )
            print( newdata ) # debug
